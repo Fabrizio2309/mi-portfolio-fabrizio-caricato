@@ -12,6 +12,10 @@ body {
   font-style: normal;
 }
 
+main {
+  background-color: #020138;
+}
+
 main, footer{
   margin-left: 200px;
 }
@@ -35,7 +39,7 @@ nav {
   height: 100vh;
   padding: 30px;
   gap: 20px;
-  background-color: #1a334a;
+  background-color: #01011e;
   width: 200px;
   position: fixed;
 }
@@ -43,6 +47,20 @@ nav {
 a {
   transition: 0.3s;
   color: black;
+}
+
+section, a{
+  color: white;
+}
+
+ul li a {
+  color: #27e6ec;;
+}
+
+.name-title {
+  color: #27e6ec;
+  font-size: 100px;
+  margin-bottom: 40px;
 }
 
 aside a:hover {
@@ -63,10 +81,20 @@ section a {
   text-decoration: none;
 }
 
-.short-personal--presentation {
+.short-personal-presentation {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+}
+
+.short-description {
+  font-size: 27px;
+}
+
+.short-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
